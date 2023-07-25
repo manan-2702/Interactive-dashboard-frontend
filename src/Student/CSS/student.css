@@ -1,0 +1,57 @@
+.student-nav {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: auto;
+    background-color: #2e2f5b;
+    z-index: 1;
+}
+
+.menu {
+    width: 100%;
+    padding: 5px;
+}
+
+.student-nav ul {
+    padding: 10px;
+}
+
+.student-nav ul li a {
+    padding: 1vh;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.student-nav ul li .text {
+    /* margin-left: 15px; */
+    font-size: 2vh;
+    color: white;
+}
+
+.student-topbar {
+    position: fixed;
+    top: 0;
+    background-color: #4755ce;
+    width: 100%;
+    height: 7vh;
+}
+
+.student-topbar center {
+    position: absolute;
+    top: 0;
+    margin: 5px;
+    width: 100%;
+    color: white;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+.student-topbar div {
+    position: absolute;
+    right: 0;
+    margin: 5px 2vh;
+}
